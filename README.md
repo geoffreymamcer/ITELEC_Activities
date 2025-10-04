@@ -1,0 +1,7 @@
+# Mark Geoffrey A. Batocabe's ITELEC Projects 
+
+Here are some of the project folders in this repository:
+
+- [Chicago Crimes Analysis](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/Chicago)
+- [Palmer Penguin Analysis](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/Palmer%20Penguin)
+- [UK Road Accident Data Analytics](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/UK%20ROAD%20ACCIDENT%20DATA%20ANALYTICS)
