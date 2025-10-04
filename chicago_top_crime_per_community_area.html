@@ -1,0 +1,3027 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_83460c9567848c195d6c5fb5fa8cb6a0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_83460c9567848c195d6c5fb5fa8cb6a0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_83460c9567848c195d6c5fb5fa8cb6a0 = L.map(
+                "map_83460c9567848c195d6c5fb5fa8cb6a0",
+                {
+                    center: [41.84716796875, -87.66883850097656],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_aa6688e363fad73c94d74ea6af12d2af = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_aa6688e363fad73c94d74ea6af12d2af.addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var marker_8cc9d09b79cbe84a7b8b382918de63ed = L.marker(
+                [42.0106315612793, -87.66958618164062],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_5a723523aecd0b31f54c515f92e6ad3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e9a354d1957b4f39d995cd7514a5473 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42f8dc941c6ae1fbeeb0420b969a69e0 = $(`<div id="html_42f8dc941c6ae1fbeeb0420b969a69e0" style="width: 100.0%; height: 100.0%;">Community Area: 1 Top Crime: THEFT Count: 1158</div>`)[0];
+                popup_8e9a354d1957b4f39d995cd7514a5473.setContent(html_42f8dc941c6ae1fbeeb0420b969a69e0);
+            
+        
+
+        marker_8cc9d09b79cbe84a7b8b382918de63ed.bindPopup(popup_8e9a354d1957b4f39d995cd7514a5473)
+        ;
+
+        
+    
+    
+                marker_8cc9d09b79cbe84a7b8b382918de63ed.setIcon(icon_5a723523aecd0b31f54c515f92e6ad3d);
+            
+    
+            var marker_aece1eeec89162868b4c13aa9c7bbf56 = L.marker(
+                [41.999393463134766, -87.69286346435547],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_df6def9c5f88dd4e8cb48beccb2b9e0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc486e6272ab7db94f133e0a63ddab9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2cf2cfdf0ad45ecc683e33dee216ba6 = $(`<div id="html_d2cf2cfdf0ad45ecc683e33dee216ba6" style="width: 100.0%; height: 100.0%;">Community Area: 2 Top Crime: THEFT Count: 854</div>`)[0];
+                popup_bc486e6272ab7db94f133e0a63ddab9a.setContent(html_d2cf2cfdf0ad45ecc683e33dee216ba6);
+            
+        
+
+        marker_aece1eeec89162868b4c13aa9c7bbf56.bindPopup(popup_bc486e6272ab7db94f133e0a63ddab9a)
+        ;
+
+        
+    
+    
+                marker_aece1eeec89162868b4c13aa9c7bbf56.setIcon(icon_df6def9c5f88dd4e8cb48beccb2b9e0e);
+            
+    
+            var marker_4f0e912be777db0260ce4319808d2e6f = L.marker(
+                [41.966163635253906, -87.65636444091797],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_a27a825103872801c035615571ab5a57 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7216bc251f2d5772b52feae625171bcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91b560687365bb79d1308ed2e94c0de6 = $(`<div id="html_91b560687365bb79d1308ed2e94c0de6" style="width: 100.0%; height: 100.0%;">Community Area: 3 Top Crime: THEFT Count: 1400</div>`)[0];
+                popup_7216bc251f2d5772b52feae625171bcb.setContent(html_91b560687365bb79d1308ed2e94c0de6);
+            
+        
+
+        marker_4f0e912be777db0260ce4319808d2e6f.bindPopup(popup_7216bc251f2d5772b52feae625171bcb)
+        ;
+
+        
+    
+    
+                marker_4f0e912be777db0260ce4319808d2e6f.setIcon(icon_a27a825103872801c035615571ab5a57);
+            
+    
+            var marker_7e0a64fd808a8ee93046aac598a16b52 = L.marker(
+                [41.971839904785156, -87.68851470947266],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_0d0a052d4a32fcaf38fa89eb0b7b8c02 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e1b95477edebf4646b8e366125f0af2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef39841c1622fd0c07254a1dd68d6340 = $(`<div id="html_ef39841c1622fd0c07254a1dd68d6340" style="width: 100.0%; height: 100.0%;">Community Area: 4 Top Crime: THEFT Count: 581</div>`)[0];
+                popup_5e1b95477edebf4646b8e366125f0af2.setContent(html_ef39841c1622fd0c07254a1dd68d6340);
+            
+        
+
+        marker_7e0a64fd808a8ee93046aac598a16b52.bindPopup(popup_5e1b95477edebf4646b8e366125f0af2)
+        ;
+
+        
+    
+    
+                marker_7e0a64fd808a8ee93046aac598a16b52.setIcon(icon_0d0a052d4a32fcaf38fa89eb0b7b8c02);
+            
+    
+            var marker_b7878fb33dd3562ce2aa44bcbd6f50a2 = L.marker(
+                [41.94734573364258, -87.68254089355469],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_ee6856042310431816c21a7f88d8bc15 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee6a4374390def0f33eaf08d427a98c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24cb95aaa5d37101886c84ba48e9358c = $(`<div id="html_24cb95aaa5d37101886c84ba48e9358c" style="width: 100.0%; height: 100.0%;">Community Area: 5 Top Crime: THEFT Count: 385</div>`)[0];
+                popup_ee6a4374390def0f33eaf08d427a98c0.setContent(html_24cb95aaa5d37101886c84ba48e9358c);
+            
+        
+
+        marker_b7878fb33dd3562ce2aa44bcbd6f50a2.bindPopup(popup_ee6a4374390def0f33eaf08d427a98c0)
+        ;
+
+        
+    
+    
+                marker_b7878fb33dd3562ce2aa44bcbd6f50a2.setIcon(icon_ee6856042310431816c21a7f88d8bc15);
+            
+    
+            var marker_00fd2461b7259943a085093758e7c2e7 = L.marker(
+                [41.94379425048828, -87.65310668945312],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_b4d322fe6fb8fa7791068f3feb9e9841 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e6278e8e9e32d27804ff3e000c8eb76 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57fd65fc44303e5884846e1c5c7b69bb = $(`<div id="html_57fd65fc44303e5884846e1c5c7b69bb" style="width: 100.0%; height: 100.0%;">Community Area: 6 Top Crime: THEFT Count: 2683</div>`)[0];
+                popup_9e6278e8e9e32d27804ff3e000c8eb76.setContent(html_57fd65fc44303e5884846e1c5c7b69bb);
+            
+        
+
+        marker_00fd2461b7259943a085093758e7c2e7.bindPopup(popup_9e6278e8e9e32d27804ff3e000c8eb76)
+        ;
+
+        
+    
+    
+                marker_00fd2461b7259943a085093758e7c2e7.setIcon(icon_b4d322fe6fb8fa7791068f3feb9e9841);
+            
+    
+            var marker_9b5a02e4dd95ed449d74280f029af92c = L.marker(
+                [41.92360305786133, -87.65008544921875],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_02a0d26b89a6a85b47d0876e817dfde1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d236210d98dde9928d78e4983dab0ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c46977ebf15d1c91bcff620dc5738877 = $(`<div id="html_c46977ebf15d1c91bcff620dc5738877" style="width: 100.0%; height: 100.0%;">Community Area: 7 Top Crime: THEFT Count: 1935</div>`)[0];
+                popup_5d236210d98dde9928d78e4983dab0ec.setContent(html_c46977ebf15d1c91bcff620dc5738877);
+            
+        
+
+        marker_9b5a02e4dd95ed449d74280f029af92c.bindPopup(popup_5d236210d98dde9928d78e4983dab0ec)
+        ;
+
+        
+    
+    
+                marker_9b5a02e4dd95ed449d74280f029af92c.setIcon(icon_02a0d26b89a6a85b47d0876e817dfde1);
+            
+    
+            var marker_c7aa1aa6143ff4db8dc46f70c721a2e9 = L.marker(
+                [41.89739227294922, -87.63078308105469],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_081a501b1e5bba4e6fb5fd11609845ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c1de43834a53ca437cb596ba2bc62320 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99d2f247c6e73db2a416da29e563056e = $(`<div id="html_99d2f247c6e73db2a416da29e563056e" style="width: 100.0%; height: 100.0%;">Community Area: 8 Top Crime: THEFT Count: 4387</div>`)[0];
+                popup_c1de43834a53ca437cb596ba2bc62320.setContent(html_99d2f247c6e73db2a416da29e563056e);
+            
+        
+
+        marker_c7aa1aa6143ff4db8dc46f70c721a2e9.bindPopup(popup_c1de43834a53ca437cb596ba2bc62320)
+        ;
+
+        
+    
+    
+                marker_c7aa1aa6143ff4db8dc46f70c721a2e9.setIcon(icon_081a501b1e5bba4e6fb5fd11609845ad);
+            
+    
+            var marker_7763b01f450d72cc83c49aed78201fdf = L.marker(
+                [42.006675720214844, -87.81285858154297],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_373da62612ac69f516e15f484e7f4521 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_983cfc06aaf1973ced20a3c74638a59d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d972a6bdd63fe451abf3d02929dc74f = $(`<div id="html_3d972a6bdd63fe451abf3d02929dc74f" style="width: 100.0%; height: 100.0%;">Community Area: 9 Top Crime: DECEPTIVE PRACTICE Count: 61</div>`)[0];
+                popup_983cfc06aaf1973ced20a3c74638a59d.setContent(html_3d972a6bdd63fe451abf3d02929dc74f);
+            
+        
+
+        marker_7763b01f450d72cc83c49aed78201fdf.bindPopup(popup_983cfc06aaf1973ced20a3c74638a59d)
+        ;
+
+        
+    
+    
+                marker_7763b01f450d72cc83c49aed78201fdf.setIcon(icon_373da62612ac69f516e15f484e7f4521);
+            
+    
+            var marker_51ecca449f256cc3819ddb2ab6fbc2ce = L.marker(
+                [41.98461151123047, -87.80226135253906],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_271b94dc008ee9cf2c96c91924cf1330 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfb3688c308d0e3c673c5ca3e2305816 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff1fdcddd27a116f7cca5531dd88ab0d = $(`<div id="html_ff1fdcddd27a116f7cca5531dd88ab0d" style="width: 100.0%; height: 100.0%;">Community Area: 10 Top Crime: THEFT Count: 297</div>`)[0];
+                popup_dfb3688c308d0e3c673c5ca3e2305816.setContent(html_ff1fdcddd27a116f7cca5531dd88ab0d);
+            
+        
+
+        marker_51ecca449f256cc3819ddb2ab6fbc2ce.bindPopup(popup_dfb3688c308d0e3c673c5ca3e2305816)
+        ;
+
+        
+    
+    
+                marker_51ecca449f256cc3819ddb2ab6fbc2ce.setIcon(icon_271b94dc008ee9cf2c96c91924cf1330);
+            
+    
+            var marker_8fe9afcd01b446a3d03b8bb8fa27603e = L.marker(
+                [41.97587966918945, -87.76934051513672],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_7ed17190d566c5b3ed29f9790e1dac4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53297f7a98f2e8e807126297fcd08294 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d71006946a49c477a370a3508ae283b = $(`<div id="html_2d71006946a49c477a370a3508ae283b" style="width: 100.0%; height: 100.0%;">Community Area: 11 Top Crime: THEFT Count: 202</div>`)[0];
+                popup_53297f7a98f2e8e807126297fcd08294.setContent(html_2d71006946a49c477a370a3508ae283b);
+            
+        
+
+        marker_8fe9afcd01b446a3d03b8bb8fa27603e.bindPopup(popup_53297f7a98f2e8e807126297fcd08294)
+        ;
+
+        
+    
+    
+                marker_8fe9afcd01b446a3d03b8bb8fa27603e.setIcon(icon_7ed17190d566c5b3ed29f9790e1dac4b);
+            
+    
+            var marker_7801b6c5aa5df4eb3a9c7cc7c53728f7 = L.marker(
+                [41.98902893066406, -87.75148010253906],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_3eb393bbdb982b81609942e66a1f5093 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3dc6494bfe3a0c723861b4461104e5cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44f8c0f563e70204c06f72ad6336720e = $(`<div id="html_44f8c0f563e70204c06f72ad6336720e" style="width: 100.0%; height: 100.0%;">Community Area: 12 Top Crime: THEFT Count: 137</div>`)[0];
+                popup_3dc6494bfe3a0c723861b4461104e5cf.setContent(html_44f8c0f563e70204c06f72ad6336720e);
+            
+        
+
+        marker_7801b6c5aa5df4eb3a9c7cc7c53728f7.bindPopup(popup_3dc6494bfe3a0c723861b4461104e5cf)
+        ;
+
+        
+    
+    
+                marker_7801b6c5aa5df4eb3a9c7cc7c53728f7.setIcon(icon_3eb393bbdb982b81609942e66a1f5093);
+            
+    
+            var marker_13ba5191808c688420655e1bc349fdb4 = L.marker(
+                [41.9854850769043, -87.71613311767578],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_35f1c1932bb59df434b8a109e068c957 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b228aa4d503c64d8f22fecd08c86bbb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67f77096fe716f9da8c3dabf5b10d1e8 = $(`<div id="html_67f77096fe716f9da8c3dabf5b10d1e8" style="width: 100.0%; height: 100.0%;">Community Area: 13 Top Crime: THEFT Count: 351</div>`)[0];
+                popup_b228aa4d503c64d8f22fecd08c86bbb4.setContent(html_67f77096fe716f9da8c3dabf5b10d1e8);
+            
+        
+
+        marker_13ba5191808c688420655e1bc349fdb4.bindPopup(popup_b228aa4d503c64d8f22fecd08c86bbb4)
+        ;
+
+        
+    
+    
+                marker_13ba5191808c688420655e1bc349fdb4.setIcon(icon_35f1c1932bb59df434b8a109e068c957);
+            
+    
+            var marker_7aaedfb952a03081272e2b8dc72a35eb = L.marker(
+                [41.96759796142578, -87.72074890136719],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_961088d18711ac02249e76c5ce4abad7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29ec64a60ed370f701b08f353143dbf9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e47d148f4c5dbc56025732686969d34 = $(`<div id="html_8e47d148f4c5dbc56025732686969d34" style="width: 100.0%; height: 100.0%;">Community Area: 14 Top Crime: THEFT Count: 571</div>`)[0];
+                popup_29ec64a60ed370f701b08f353143dbf9.setContent(html_8e47d148f4c5dbc56025732686969d34);
+            
+        
+
+        marker_7aaedfb952a03081272e2b8dc72a35eb.bindPopup(popup_29ec64a60ed370f701b08f353143dbf9)
+        ;
+
+        
+    
+    
+                marker_7aaedfb952a03081272e2b8dc72a35eb.setIcon(icon_961088d18711ac02249e76c5ce4abad7);
+            
+    
+            var marker_a0d75789991380cbf08fc45a1c30aa94 = L.marker(
+                [41.952640533447266, -87.76049041748047],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_e43dddf2938ea28cf3b6e7772339e54e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd9eabca73cdc2b4612c5cc2249bf669 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_761691609ea9beba741dda96da0f1d43 = $(`<div id="html_761691609ea9beba741dda96da0f1d43" style="width: 100.0%; height: 100.0%;">Community Area: 15 Top Crime: THEFT Count: 852</div>`)[0];
+                popup_bd9eabca73cdc2b4612c5cc2249bf669.setContent(html_761691609ea9beba741dda96da0f1d43);
+            
+        
+
+        marker_a0d75789991380cbf08fc45a1c30aa94.bindPopup(popup_bd9eabca73cdc2b4612c5cc2249bf669)
+        ;
+
+        
+    
+    
+                marker_a0d75789991380cbf08fc45a1c30aa94.setIcon(icon_e43dddf2938ea28cf3b6e7772339e54e);
+            
+    
+            var marker_8bfb4c0a984172060d8775f3d160ce36 = L.marker(
+                [41.95307540893555, -87.72115325927734],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_6e3415025b60179a32a561c254d1c6ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_675f7e8fdb825d4a8ced2cc1f50a53c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_267ba375542f1d93af0ca945e7dee6bc = $(`<div id="html_267ba375542f1d93af0ca945e7dee6bc" style="width: 100.0%; height: 100.0%;">Community Area: 16 Top Crime: THEFT Count: 620</div>`)[0];
+                popup_675f7e8fdb825d4a8ced2cc1f50a53c0.setContent(html_267ba375542f1d93af0ca945e7dee6bc);
+            
+        
+
+        marker_8bfb4c0a984172060d8775f3d160ce36.bindPopup(popup_675f7e8fdb825d4a8ced2cc1f50a53c0)
+        ;
+
+        
+    
+    
+                marker_8bfb4c0a984172060d8775f3d160ce36.setIcon(icon_6e3415025b60179a32a561c254d1c6ce);
+            
+    
+            var marker_ee13b3a19ecbbc908ac276ba154d4afd = L.marker(
+                [41.945472717285156, -87.80240631103516],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_bedb0b8b695169975eced40b2ce16c89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85166da179c83cd98cad06ce8a13be6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05ac4579251de59f8d861ad9dbf1f836 = $(`<div id="html_05ac4579251de59f8d861ad9dbf1f836" style="width: 100.0%; height: 100.0%;">Community Area: 17 Top Crime: THEFT Count: 318</div>`)[0];
+                popup_85166da179c83cd98cad06ce8a13be6e.setContent(html_05ac4579251de59f8d861ad9dbf1f836);
+            
+        
+
+        marker_ee13b3a19ecbbc908ac276ba154d4afd.bindPopup(popup_85166da179c83cd98cad06ce8a13be6e)
+        ;
+
+        
+    
+    
+                marker_ee13b3a19ecbbc908ac276ba154d4afd.setIcon(icon_bedb0b8b695169975eced40b2ce16c89);
+            
+    
+            var marker_5fcc83523858bd017d3e6ad8604c5a19 = L.marker(
+                [41.9300651550293, -87.7978744506836],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_f374bdc7543d43953486aee7c83eb4a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76756e208fc074f3e1967e732e26fc8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c003aaa5efa1c4ddda54d7a9068a7c43 = $(`<div id="html_c003aaa5efa1c4ddda54d7a9068a7c43" style="width: 100.0%; height: 100.0%;">Community Area: 18 Top Crime: THEFT Count: 173</div>`)[0];
+                popup_76756e208fc074f3e1967e732e26fc8b.setContent(html_c003aaa5efa1c4ddda54d7a9068a7c43);
+            
+        
+
+        marker_5fcc83523858bd017d3e6ad8604c5a19.bindPopup(popup_76756e208fc074f3e1967e732e26fc8b)
+        ;
+
+        
+    
+    
+                marker_5fcc83523858bd017d3e6ad8604c5a19.setIcon(icon_f374bdc7543d43953486aee7c83eb4a6);
+            
+    
+            var marker_5830cbed34f75ef7c90aa39b37b75e84 = L.marker(
+                [41.92689514160156, -87.76392364501953],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_5e7803bb4bacda1355c82a7689d3b0c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_147687a20a37481ba37d4b89a0cda49e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69a1bbce6e3611f526d99a37f7161496 = $(`<div id="html_69a1bbce6e3611f526d99a37f7161496" style="width: 100.0%; height: 100.0%;">Community Area: 19 Top Crime: THEFT Count: 1036</div>`)[0];
+                popup_147687a20a37481ba37d4b89a0cda49e.setContent(html_69a1bbce6e3611f526d99a37f7161496);
+            
+        
+
+        marker_5830cbed34f75ef7c90aa39b37b75e84.bindPopup(popup_147687a20a37481ba37d4b89a0cda49e)
+        ;
+
+        
+    
+    
+                marker_5830cbed34f75ef7c90aa39b37b75e84.setIcon(icon_5e7803bb4bacda1355c82a7689d3b0c6);
+            
+    
+            var marker_039fb6d3d15233014bf52defbf7c2b2d = L.marker(
+                [41.923179626464844, -87.73442077636719],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_9dddfa7ea753f4f245ec1ee3446b34b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a263e9e5f03b89f8bf306db0f0da8f50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b03623d7d5a99ee439209dbdb34685f = $(`<div id="html_4b03623d7d5a99ee439209dbdb34685f" style="width: 100.0%; height: 100.0%;">Community Area: 20 Top Crime: BATTERY Count: 280</div>`)[0];
+                popup_a263e9e5f03b89f8bf306db0f0da8f50.setContent(html_4b03623d7d5a99ee439209dbdb34685f);
+            
+        
+
+        marker_039fb6d3d15233014bf52defbf7c2b2d.bindPopup(popup_a263e9e5f03b89f8bf306db0f0da8f50)
+        ;
+
+        
+    
+    
+                marker_039fb6d3d15233014bf52defbf7c2b2d.setIcon(icon_9dddfa7ea753f4f245ec1ee3446b34b3);
+            
+    
+            var marker_d8c76bfb254902e689264d6e3270a08e = L.marker(
+                [41.93863296508789, -87.71292114257812],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_e18b1c22ca98f70c9892ae0d26d1ab97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65d273cc5d6ab76f4de2c180dfcb68ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4ae9c954c727bd78a0df24274d12e95 = $(`<div id="html_b4ae9c954c727bd78a0df24274d12e95" style="width: 100.0%; height: 100.0%;">Community Area: 21 Top Crime: THEFT Count: 856</div>`)[0];
+                popup_65d273cc5d6ab76f4de2c180dfcb68ca.setContent(html_b4ae9c954c727bd78a0df24274d12e95);
+            
+        
+
+        marker_d8c76bfb254902e689264d6e3270a08e.bindPopup(popup_65d273cc5d6ab76f4de2c180dfcb68ca)
+        ;
+
+        
+    
+    
+                marker_d8c76bfb254902e689264d6e3270a08e.setIcon(icon_e18b1c22ca98f70c9892ae0d26d1ab97);
+            
+    
+            var marker_cb1b8fc469cef3489fcc2c6ba2f5f4b6 = L.marker(
+                [41.92265701293945, -87.69925689697266],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_c6ec50ace16732dab9ec430d612e159c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_38dc2381b3d908711cf3caca14a8ceda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d064f2efeef7baa019febef38d4decc = $(`<div id="html_2d064f2efeef7baa019febef38d4decc" style="width: 100.0%; height: 100.0%;">Community Area: 22 Top Crime: THEFT Count: 2009</div>`)[0];
+                popup_38dc2381b3d908711cf3caca14a8ceda.setContent(html_2d064f2efeef7baa019febef38d4decc);
+            
+        
+
+        marker_cb1b8fc469cef3489fcc2c6ba2f5f4b6.bindPopup(popup_38dc2381b3d908711cf3caca14a8ceda)
+        ;
+
+        
+    
+    
+                marker_cb1b8fc469cef3489fcc2c6ba2f5f4b6.setIcon(icon_c6ec50ace16732dab9ec430d612e159c);
+            
+    
+            var marker_835bd1612b7d00aff40f6144386b9ce9 = L.marker(
+                [41.90032958984375, -87.71949005126953],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_cafbc786d054f64d4ad3e363ad551f4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c2e7d20b2388fb7f143589a8acc7e3a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b45167741a2c14704f797f6b5a153292 = $(`<div id="html_b45167741a2c14704f797f6b5a153292" style="width: 100.0%; height: 100.0%;">Community Area: 23 Top Crime: BATTERY Count: 1265</div>`)[0];
+                popup_c2e7d20b2388fb7f143589a8acc7e3a2.setContent(html_b45167741a2c14704f797f6b5a153292);
+            
+        
+
+        marker_835bd1612b7d00aff40f6144386b9ce9.bindPopup(popup_c2e7d20b2388fb7f143589a8acc7e3a2)
+        ;
+
+        
+    
+    
+                marker_835bd1612b7d00aff40f6144386b9ce9.setIcon(icon_cafbc786d054f64d4ad3e363ad551f4d);
+            
+    
+            var marker_fc92c590b928601debe31e156abf5cff = L.marker(
+                [41.90153121948242, -87.67584228515625],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_779fae6a6ce150189382b70474450ef8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b7e2b9e5198c2a3349f8e8af94da9ff8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7637938f09ac55180df20851a318fcfb = $(`<div id="html_7637938f09ac55180df20851a318fcfb" style="width: 100.0%; height: 100.0%;">Community Area: 24 Top Crime: THEFT Count: 2556</div>`)[0];
+                popup_b7e2b9e5198c2a3349f8e8af94da9ff8.setContent(html_7637938f09ac55180df20851a318fcfb);
+            
+        
+
+        marker_fc92c590b928601debe31e156abf5cff.bindPopup(popup_b7e2b9e5198c2a3349f8e8af94da9ff8)
+        ;
+
+        
+    
+    
+                marker_fc92c590b928601debe31e156abf5cff.setIcon(icon_779fae6a6ce150189382b70474450ef8);
+            
+    
+            var marker_2c03f42ac4ff327c08bbce34d9f21f73 = L.marker(
+                [41.89073944091797, -87.75861358642578],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_d7fedac2b4cb19b9f46ff701148ff141 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44b4f049129862011529d77b246dee32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_505f864b7bd852fe4385ba0c8ffa6f08 = $(`<div id="html_505f864b7bd852fe4385ba0c8ffa6f08" style="width: 100.0%; height: 100.0%;">Community Area: 25 Top Crime: BATTERY Count: 2761</div>`)[0];
+                popup_44b4f049129862011529d77b246dee32.setContent(html_505f864b7bd852fe4385ba0c8ffa6f08);
+            
+        
+
+        marker_2c03f42ac4ff327c08bbce34d9f21f73.bindPopup(popup_44b4f049129862011529d77b246dee32)
+        ;
+
+        
+    
+    
+                marker_2c03f42ac4ff327c08bbce34d9f21f73.setIcon(icon_d7fedac2b4cb19b9f46ff701148ff141);
+            
+    
+            var marker_66234a68813a83adaafcbd9c2d52fc97 = L.marker(
+                [41.87806701660156, -87.72909545898438],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_182ae07cd4d52191d3630890daf856b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3e94f25eaf19ba5db7b47d0f2c467c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13198f159da29cab501d8db9ed094f01 = $(`<div id="html_13198f159da29cab501d8db9ed094f01" style="width: 100.0%; height: 100.0%;">Community Area: 26 Top Crime: BATTERY Count: 777</div>`)[0];
+                popup_f3e94f25eaf19ba5db7b47d0f2c467c1.setContent(html_13198f159da29cab501d8db9ed094f01);
+            
+        
+
+        marker_66234a68813a83adaafcbd9c2d52fc97.bindPopup(popup_f3e94f25eaf19ba5db7b47d0f2c467c1)
+        ;
+
+        
+    
+    
+                marker_66234a68813a83adaafcbd9c2d52fc97.setIcon(icon_182ae07cd4d52191d3630890daf856b4);
+            
+    
+            var marker_9799554a03c856ddf406e26e3232b3bb = L.marker(
+                [41.87761688232422, -87.70504760742188],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_e3eb551332dca4d2786af8090b8cf292 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a972a3dec601d22afe9d339ed825fe6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59ec4a764d7b91a04d75c7908ea27e52 = $(`<div id="html_59ec4a764d7b91a04d75c7908ea27e52" style="width: 100.0%; height: 100.0%;">Community Area: 27 Top Crime: BATTERY Count: 842</div>`)[0];
+                popup_2a972a3dec601d22afe9d339ed825fe6.setContent(html_59ec4a764d7b91a04d75c7908ea27e52);
+            
+        
+
+        marker_9799554a03c856ddf406e26e3232b3bb.bindPopup(popup_2a972a3dec601d22afe9d339ed825fe6)
+        ;
+
+        
+    
+    
+                marker_9799554a03c856ddf406e26e3232b3bb.setIcon(icon_e3eb551332dca4d2786af8090b8cf292);
+            
+    
+            var marker_677f195e154c5729645996f125c6fd79 = L.marker(
+                [41.876556396484375, -87.66049194335938],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_5822995caac0bf728debfca4f08c8d99 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3715ba2d389a6441f9a48457aaf6f330 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33a75ef025eb7bc966d50733d532c173 = $(`<div id="html_33a75ef025eb7bc966d50733d532c173" style="width: 100.0%; height: 100.0%;">Community Area: 28 Top Crime: THEFT Count: 3215</div>`)[0];
+                popup_3715ba2d389a6441f9a48457aaf6f330.setContent(html_33a75ef025eb7bc966d50733d532c173);
+            
+        
+
+        marker_677f195e154c5729645996f125c6fd79.bindPopup(popup_3715ba2d389a6441f9a48457aaf6f330)
+        ;
+
+        
+    
+    
+                marker_677f195e154c5729645996f125c6fd79.setIcon(icon_5822995caac0bf728debfca4f08c8d99);
+            
+    
+            var marker_5b58c0fed729f7366bef34fa7347c944 = L.marker(
+                [41.86121368408203, -87.71651458740234],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_746d73ece2be347028e3beac592d7d94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_597c1fe63973f77ef89a12a8348adfab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdc7690c5c150f06eed3a108fd664eaf = $(`<div id="html_fdc7690c5c150f06eed3a108fd664eaf" style="width: 100.0%; height: 100.0%;">Community Area: 29 Top Crime: BATTERY Count: 1504</div>`)[0];
+                popup_597c1fe63973f77ef89a12a8348adfab.setContent(html_fdc7690c5c150f06eed3a108fd664eaf);
+            
+        
+
+        marker_5b58c0fed729f7366bef34fa7347c944.bindPopup(popup_597c1fe63973f77ef89a12a8348adfab)
+        ;
+
+        
+    
+    
+                marker_5b58c0fed729f7366bef34fa7347c944.setIcon(icon_746d73ece2be347028e3beac592d7d94);
+            
+    
+            var marker_c59f3844c6de3b91a38e7f70bfc08fcf = L.marker(
+                [41.8453483581543, -87.7109146118164],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_e2fd1349942d7a9275f14d0f3e080af4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c55b7d7ecc56b72902660d45bba65c0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3de050520d155316d07e2e19ad8b69c = $(`<div id="html_c3de050520d155316d07e2e19ad8b69c" style="width: 100.0%; height: 100.0%;">Community Area: 30 Top Crime: BATTERY Count: 936</div>`)[0];
+                popup_c55b7d7ecc56b72902660d45bba65c0a.setContent(html_c3de050520d155316d07e2e19ad8b69c);
+            
+        
+
+        marker_c59f3844c6de3b91a38e7f70bfc08fcf.bindPopup(popup_c55b7d7ecc56b72902660d45bba65c0a)
+        ;
+
+        
+    
+    
+                marker_c59f3844c6de3b91a38e7f70bfc08fcf.setIcon(icon_e2fd1349942d7a9275f14d0f3e080af4);
+            
+    
+            var marker_51e75e53de845cc825a457f0ad1ccf6e = L.marker(
+                [41.85434341430664, -87.6663589477539],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_b93c48fab805ccc5cabb16c85400c025 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aada97ab0c5b71d3ba0e1d3cf75b6e48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3b4db2eecc5ada7670f7073009a079d = $(`<div id="html_d3b4db2eecc5ada7670f7073009a079d" style="width: 100.0%; height: 100.0%;">Community Area: 31 Top Crime: THEFT Count: 718</div>`)[0];
+                popup_aada97ab0c5b71d3ba0e1d3cf75b6e48.setContent(html_d3b4db2eecc5ada7670f7073009a079d);
+            
+        
+
+        marker_51e75e53de845cc825a457f0ad1ccf6e.bindPopup(popup_aada97ab0c5b71d3ba0e1d3cf75b6e48)
+        ;
+
+        
+    
+    
+                marker_51e75e53de845cc825a457f0ad1ccf6e.setIcon(icon_b93c48fab805ccc5cabb16c85400c025);
+            
+    
+            var marker_f145d0c5d4d865f0f5dacb5183ccfe6d = L.marker(
+                [41.87982940673828, -87.62789154052734],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_5eddd1703103031a29a798376753013b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_48b62f8661bee1ccf54ca34a1b76432e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_405fc6242576b724781d8b63a675fd48 = $(`<div id="html_405fc6242576b724781d8b63a675fd48" style="width: 100.0%; height: 100.0%;">Community Area: 32 Top Crime: THEFT Count: 3586</div>`)[0];
+                popup_48b62f8661bee1ccf54ca34a1b76432e.setContent(html_405fc6242576b724781d8b63a675fd48);
+            
+        
+
+        marker_f145d0c5d4d865f0f5dacb5183ccfe6d.bindPopup(popup_48b62f8661bee1ccf54ca34a1b76432e)
+        ;
+
+        
+    
+    
+                marker_f145d0c5d4d865f0f5dacb5183ccfe6d.setIcon(icon_5eddd1703103031a29a798376753013b);
+            
+    
+            var marker_157ff16dbe47a7b1a153ffc5bb0135a9 = L.marker(
+                [41.85797119140625, -87.62384033203125],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_8e14f405be1984ebce6ff23fa0346042 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_daff30759dd628436f0dff1f3ef5e021 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d53bf0edbab57417c04a650e77bf8f8d = $(`<div id="html_d53bf0edbab57417c04a650e77bf8f8d" style="width: 100.0%; height: 100.0%;">Community Area: 33 Top Crime: THEFT Count: 664</div>`)[0];
+                popup_daff30759dd628436f0dff1f3ef5e021.setContent(html_d53bf0edbab57417c04a650e77bf8f8d);
+            
+        
+
+        marker_157ff16dbe47a7b1a153ffc5bb0135a9.bindPopup(popup_daff30759dd628436f0dff1f3ef5e021)
+        ;
+
+        
+    
+    
+                marker_157ff16dbe47a7b1a153ffc5bb0135a9.setIcon(icon_8e14f405be1984ebce6ff23fa0346042);
+            
+    
+            var marker_bdfdf178f1ba0f22f024dbafea2330a3 = L.marker(
+                [41.843353271484375, -87.63362121582031],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_d127a167357910f33c2ffbd7ba1552b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81eef3ae01055e350a54544137506ebb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6495e23551e3fddafd2f8287ac258bf6 = $(`<div id="html_6495e23551e3fddafd2f8287ac258bf6" style="width: 100.0%; height: 100.0%;">Community Area: 34 Top Crime: THEFT Count: 294</div>`)[0];
+                popup_81eef3ae01055e350a54544137506ebb.setContent(html_6495e23551e3fddafd2f8287ac258bf6);
+            
+        
+
+        marker_bdfdf178f1ba0f22f024dbafea2330a3.bindPopup(popup_81eef3ae01055e350a54544137506ebb)
+        ;
+
+        
+    
+    
+                marker_bdfdf178f1ba0f22f024dbafea2330a3.setIcon(icon_d127a167357910f33c2ffbd7ba1552b6);
+            
+    
+            var marker_01d7418d5347486a534be8352d78a085 = L.marker(
+                [41.834999084472656, -87.61927795410156],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_39c9301755a5cf94629a39c6a95f76eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a464e8bfccd965b1f33e8807ad1c92fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b69209af75b90cbf8270efc31eca807 = $(`<div id="html_0b69209af75b90cbf8270efc31eca807" style="width: 100.0%; height: 100.0%;">Community Area: 35 Top Crime: THEFT Count: 675</div>`)[0];
+                popup_a464e8bfccd965b1f33e8807ad1c92fa.setContent(html_0b69209af75b90cbf8270efc31eca807);
+            
+        
+
+        marker_01d7418d5347486a534be8352d78a085.bindPopup(popup_a464e8bfccd965b1f33e8807ad1c92fa)
+        ;
+
+        
+    
+    
+                marker_01d7418d5347486a534be8352d78a085.setIcon(icon_39c9301755a5cf94629a39c6a95f76eb);
+            
+    
+            var marker_6838298445a9e60c03f8693f9a561bb8 = L.marker(
+                [41.823875427246094, -87.60527801513672],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_07ef45ab193df1bf154b75701b7a4076 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c3f19cf976833f771d67fbfd20ce362 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32508382e744f89802e05a413c4e38c1 = $(`<div id="html_32508382e744f89802e05a413c4e38c1" style="width: 100.0%; height: 100.0%;">Community Area: 36 Top Crime: THEFT Count: 161</div>`)[0];
+                popup_7c3f19cf976833f771d67fbfd20ce362.setContent(html_32508382e744f89802e05a413c4e38c1);
+            
+        
+
+        marker_6838298445a9e60c03f8693f9a561bb8.bindPopup(popup_7c3f19cf976833f771d67fbfd20ce362)
+        ;
+
+        
+    
+    
+                marker_6838298445a9e60c03f8693f9a561bb8.setIcon(icon_07ef45ab193df1bf154b75701b7a4076);
+            
+    
+            var marker_009747f3443699beba3812aa09e4ae2b = L.marker(
+                [41.80680465698242, -87.6323471069336],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_bc0f752c937e4c3b88f470dc57a63dda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ca69487901d16eae65174152a641dff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80e7b8260da0dba69a9c08b69135d8e8 = $(`<div id="html_80e7b8260da0dba69a9c08b69135d8e8" style="width: 100.0%; height: 100.0%;">Community Area: 37 Top Crime: BATTERY Count: 151</div>`)[0];
+                popup_0ca69487901d16eae65174152a641dff.setContent(html_80e7b8260da0dba69a9c08b69135d8e8);
+            
+        
+
+        marker_009747f3443699beba3812aa09e4ae2b.bindPopup(popup_0ca69487901d16eae65174152a641dff)
+        ;
+
+        
+    
+    
+                marker_009747f3443699beba3812aa09e4ae2b.setIcon(icon_bc0f752c937e4c3b88f470dc57a63dda);
+            
+    
+            var marker_e7488e79d063f7682763544b46ea62b1 = L.marker(
+                [41.81203842163086, -87.61672973632812],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_d96ac3879106d053037e6eaf10671695 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a68c4820da52948c4d86a6d298b78929 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6c334d286042b10e5128369a97ceffc = $(`<div id="html_a6c334d286042b10e5128369a97ceffc" style="width: 100.0%; height: 100.0%;">Community Area: 38 Top Crime: THEFT Count: 761</div>`)[0];
+                popup_a68c4820da52948c4d86a6d298b78929.setContent(html_a6c334d286042b10e5128369a97ceffc);
+            
+        
+
+        marker_e7488e79d063f7682763544b46ea62b1.bindPopup(popup_a68c4820da52948c4d86a6d298b78929)
+        ;
+
+        
+    
+    
+                marker_e7488e79d063f7682763544b46ea62b1.setIcon(icon_d96ac3879106d053037e6eaf10671695);
+            
+    
+            var marker_bbd373f5479a09d8c11810dbdb35f9f5 = L.marker(
+                [41.808650970458984, -87.59765625],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_27cc6a54b3b035bd3c4e5e114b70edce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f39118a3142a6c415aa0b6f33324616 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77d7292a862a7f89b1b4e3de97065531 = $(`<div id="html_77d7292a862a7f89b1b4e3de97065531" style="width: 100.0%; height: 100.0%;">Community Area: 39 Top Crime: THEFT Count: 492</div>`)[0];
+                popup_0f39118a3142a6c415aa0b6f33324616.setContent(html_77d7292a862a7f89b1b4e3de97065531);
+            
+        
+
+        marker_bbd373f5479a09d8c11810dbdb35f9f5.bindPopup(popup_0f39118a3142a6c415aa0b6f33324616)
+        ;
+
+        
+    
+    
+                marker_bbd373f5479a09d8c11810dbdb35f9f5.setIcon(icon_27cc6a54b3b035bd3c4e5e114b70edce);
+            
+    
+            var marker_10d68b633ef3712a23473f469680512a = L.marker(
+                [41.791072845458984, -87.6201171875],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_7786a2ac531633266d3bcfb34e779480 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e732d1ed6cb4b7da7985930af9a62e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a0ab5b56d1c9391b24d28125b38f15d = $(`<div id="html_1a0ab5b56d1c9391b24d28125b38f15d" style="width: 100.0%; height: 100.0%;">Community Area: 40 Top Crime: BATTERY Count: 595</div>`)[0];
+                popup_8e732d1ed6cb4b7da7985930af9a62e8.setContent(html_1a0ab5b56d1c9391b24d28125b38f15d);
+            
+        
+
+        marker_10d68b633ef3712a23473f469680512a.bindPopup(popup_8e732d1ed6cb4b7da7985930af9a62e8)
+        ;
+
+        
+    
+    
+                marker_10d68b633ef3712a23473f469680512a.setIcon(icon_7786a2ac531633266d3bcfb34e779480);
+            
+    
+            var marker_c2db1e7c18652916ec1879d80ec04e3e = L.marker(
+                [41.7978630065918, -87.59153747558594],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_62467b3c0752012c9a504ffb0e6ab960 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_047cbf55c596098bcb8b30d63d658864 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33e05c18fdb5a85bb6bf3b6147c87947 = $(`<div id="html_33e05c18fdb5a85bb6bf3b6147c87947" style="width: 100.0%; height: 100.0%;">Community Area: 41 Top Crime: THEFT Count: 940</div>`)[0];
+                popup_047cbf55c596098bcb8b30d63d658864.setContent(html_33e05c18fdb5a85bb6bf3b6147c87947);
+            
+        
+
+        marker_c2db1e7c18652916ec1879d80ec04e3e.bindPopup(popup_047cbf55c596098bcb8b30d63d658864)
+        ;
+
+        
+    
+    
+                marker_c2db1e7c18652916ec1879d80ec04e3e.setIcon(icon_62467b3c0752012c9a504ffb0e6ab960);
+            
+    
+            var marker_cbf41e7caf34e5900ff5129cbea04540 = L.marker(
+                [41.77863693237305, -87.60305786132812],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_0b6d7448920802b4ace770e06ed4afcd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ccaff99fec1a7f035c2eead50d667b68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df2060ab0d3cb396f83fe8ac955c7e15 = $(`<div id="html_df2060ab0d3cb396f83fe8ac955c7e15" style="width: 100.0%; height: 100.0%;">Community Area: 42 Top Crime: BATTERY Count: 756</div>`)[0];
+                popup_ccaff99fec1a7f035c2eead50d667b68.setContent(html_df2060ab0d3cb396f83fe8ac955c7e15);
+            
+        
+
+        marker_cbf41e7caf34e5900ff5129cbea04540.bindPopup(popup_ccaff99fec1a7f035c2eead50d667b68)
+        ;
+
+        
+    
+    
+                marker_cbf41e7caf34e5900ff5129cbea04540.setIcon(icon_0b6d7448920802b4ace770e06ed4afcd);
+            
+    
+            var marker_c03e057c3c3d1325cbeac067c87b4cdf = L.marker(
+                [41.762229919433594, -87.57320404052734],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_238c7bef3614861a880744955c9e3f85 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da8ef647fe82d767514770c7f0845db0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d57f70002b27d6abaf65bcbf4d48e96 = $(`<div id="html_7d57f70002b27d6abaf65bcbf4d48e96" style="width: 100.0%; height: 100.0%;">Community Area: 43 Top Crime: BATTERY Count: 1830</div>`)[0];
+                popup_da8ef647fe82d767514770c7f0845db0.setContent(html_7d57f70002b27d6abaf65bcbf4d48e96);
+            
+        
+
+        marker_c03e057c3c3d1325cbeac067c87b4cdf.bindPopup(popup_da8ef647fe82d767514770c7f0845db0)
+        ;
+
+        
+    
+    
+                marker_c03e057c3c3d1325cbeac067c87b4cdf.setIcon(icon_238c7bef3614861a880744955c9e3f85);
+            
+    
+            var marker_e469c19015af725ddc9965d16025fc07 = L.marker(
+                [41.74281692504883, -87.61249542236328],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_6d3e633181642080aa9b1b57a97ef81e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_769b5ba7125c5f9d95aab9c044cb001e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_952d2e7f93829fc22f61068e313403ec = $(`<div id="html_952d2e7f93829fc22f61068e313403ec" style="width: 100.0%; height: 100.0%;">Community Area: 44 Top Crime: THEFT Count: 1130</div>`)[0];
+                popup_769b5ba7125c5f9d95aab9c044cb001e.setContent(html_952d2e7f93829fc22f61068e313403ec);
+            
+        
+
+        marker_e469c19015af725ddc9965d16025fc07.bindPopup(popup_769b5ba7125c5f9d95aab9c044cb001e)
+        ;
+
+        
+    
+    
+                marker_e469c19015af725ddc9965d16025fc07.setIcon(icon_6d3e633181642080aa9b1b57a97ef81e);
+            
+    
+            var marker_b176b84d9652877440a8ebcf710a2eb5 = L.marker(
+                [41.74443054199219, -87.587158203125],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_b404460ccc98a7bb103207bc2201db23 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0059f6b029472a2ffcaf46be3abc6fbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fe935fb59df402d7ae270de0de86534 = $(`<div id="html_4fe935fb59df402d7ae270de0de86534" style="width: 100.0%; height: 100.0%;">Community Area: 45 Top Crime: THEFT Count: 208</div>`)[0];
+                popup_0059f6b029472a2ffcaf46be3abc6fbf.setContent(html_4fe935fb59df402d7ae270de0de86534);
+            
+        
+
+        marker_b176b84d9652877440a8ebcf710a2eb5.bindPopup(popup_0059f6b029472a2ffcaf46be3abc6fbf)
+        ;
+
+        
+    
+    
+                marker_b176b84d9652877440a8ebcf710a2eb5.setIcon(icon_b404460ccc98a7bb103207bc2201db23);
+            
+    
+            var marker_82c66d20f86fe894e476f99f765788c3 = L.marker(
+                [41.741939544677734, -87.55723571777344],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_7718754d1ad5bc9195f668596293ff1b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3b5d17d944a4d9272b1a132f7347cf70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ee8f988c750e820777309af3f6ac4a5 = $(`<div id="html_4ee8f988c750e820777309af3f6ac4a5" style="width: 100.0%; height: 100.0%;">Community Area: 46 Top Crime: BATTERY Count: 800</div>`)[0];
+                popup_3b5d17d944a4d9272b1a132f7347cf70.setContent(html_4ee8f988c750e820777309af3f6ac4a5);
+            
+        
+
+        marker_82c66d20f86fe894e476f99f765788c3.bindPopup(popup_3b5d17d944a4d9272b1a132f7347cf70)
+        ;
+
+        
+    
+    
+                marker_82c66d20f86fe894e476f99f765788c3.setIcon(icon_7718754d1ad5bc9195f668596293ff1b);
+            
+    
+            var marker_1a4891a3f15605f35670cb574ffc2774 = L.marker(
+                [41.72789001464844, -87.59738159179688],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_10632fbc5d1fa8f23ae26737422d070e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8386bb72abd943bf69046272ae2d7ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1c10b01fd7e2f95de9d8249ac21de27 = $(`<div id="html_f1c10b01fd7e2f95de9d8249ac21de27" style="width: 100.0%; height: 100.0%;">Community Area: 47 Top Crime: BATTERY Count: 49</div>`)[0];
+                popup_d8386bb72abd943bf69046272ae2d7ec.setContent(html_f1c10b01fd7e2f95de9d8249ac21de27);
+            
+        
+
+        marker_1a4891a3f15605f35670cb574ffc2774.bindPopup(popup_d8386bb72abd943bf69046272ae2d7ec)
+        ;
+
+        
+    
+    
+                marker_1a4891a3f15605f35670cb574ffc2774.setIcon(icon_10632fbc5d1fa8f23ae26737422d070e);
+            
+    
+            var marker_92d85f4af549f97ecfb6db46a447c542 = L.marker(
+                [41.73069381713867, -87.57559967041016],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_1c54f194b1a6a97c728afec0b85ee9c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae2cecab0fd076e1f835a2b4f41c2167 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c09a014234a2849b3c76505dc8ee841f = $(`<div id="html_c09a014234a2849b3c76505dc8ee841f" style="width: 100.0%; height: 100.0%;">Community Area: 48 Top Crime: THEFT Count: 225</div>`)[0];
+                popup_ae2cecab0fd076e1f835a2b4f41c2167.setContent(html_c09a014234a2849b3c76505dc8ee841f);
+            
+        
+
+        marker_92d85f4af549f97ecfb6db46a447c542.bindPopup(popup_ae2cecab0fd076e1f835a2b4f41c2167)
+        ;
+
+        
+    
+    
+                marker_92d85f4af549f97ecfb6db46a447c542.setIcon(icon_1c54f194b1a6a97c728afec0b85ee9c5);
+            
+    
+            var marker_cd0633ad8a5471419e0fdf5c75b8652b = L.marker(
+                [41.70468521118164, -87.62383270263672],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_ee697bd81ee873201f51c75e8e0b089a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e866148b526bb727473bd6002cf34b69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c003ce23597bd220a4b36a3c4506b356 = $(`<div id="html_c003ce23597bd220a4b36a3c4506b356" style="width: 100.0%; height: 100.0%;">Community Area: 49 Top Crime: BATTERY Count: 1033</div>`)[0];
+                popup_e866148b526bb727473bd6002cf34b69.setContent(html_c003ce23597bd220a4b36a3c4506b356);
+            
+        
+
+        marker_cd0633ad8a5471419e0fdf5c75b8652b.bindPopup(popup_e866148b526bb727473bd6002cf34b69)
+        ;
+
+        
+    
+    
+                marker_cd0633ad8a5471419e0fdf5c75b8652b.setIcon(icon_ee697bd81ee873201f51c75e8e0b089a);
+            
+    
+            var marker_5d229c523199d8d04587cbaec92ecfc3 = L.marker(
+                [41.70280838012695, -87.60126495361328],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_72139b139da82ade5daafebaff026494 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d89a93f589f9169731ca185f2d5a544d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe908c67e5a1b6c9cd0a0cb189d06c0c = $(`<div id="html_fe908c67e5a1b6c9cd0a0cb189d06c0c" style="width: 100.0%; height: 100.0%;">Community Area: 50 Top Crime: THEFT Count: 307</div>`)[0];
+                popup_d89a93f589f9169731ca185f2d5a544d.setContent(html_fe908c67e5a1b6c9cd0a0cb189d06c0c);
+            
+        
+
+        marker_5d229c523199d8d04587cbaec92ecfc3.bindPopup(popup_d89a93f589f9169731ca185f2d5a544d)
+        ;
+
+        
+    
+    
+                marker_5d229c523199d8d04587cbaec92ecfc3.setIcon(icon_72139b139da82ade5daafebaff026494);
+            
+    
+            var marker_2172fa2cff9dd2f849111b058f0f724d = L.marker(
+                [41.71108627319336, -87.56915283203125],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_1817b4f2955a7964b0f75d82b83d7107 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_461c50cf987a10821aa680aebd9091cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef8648d1f8d498ea5d4b63b095b1d9d4 = $(`<div id="html_ef8648d1f8d498ea5d4b63b095b1d9d4" style="width: 100.0%; height: 100.0%;">Community Area: 51 Top Crime: THEFT Count: 413</div>`)[0];
+                popup_461c50cf987a10821aa680aebd9091cb.setContent(html_ef8648d1f8d498ea5d4b63b095b1d9d4);
+            
+        
+
+        marker_2172fa2cff9dd2f849111b058f0f724d.bindPopup(popup_461c50cf987a10821aa680aebd9091cb)
+        ;
+
+        
+    
+    
+                marker_2172fa2cff9dd2f849111b058f0f724d.setIcon(icon_1817b4f2955a7964b0f75d82b83d7107);
+            
+    
+            var marker_18f89c77213d21e8d6b3b8639779ca31 = L.marker(
+                [41.70428466796875, -87.53558349609375],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_8075e6f70480076867ec776e780f5bef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f91115ecbc4790909befb224a888d078 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2bd36fc4e2474739eeac04709299113 = $(`<div id="html_c2bd36fc4e2474739eeac04709299113" style="width: 100.0%; height: 100.0%;">Community Area: 52 Top Crime: BATTERY Count: 241</div>`)[0];
+                popup_f91115ecbc4790909befb224a888d078.setContent(html_c2bd36fc4e2474739eeac04709299113);
+            
+        
+
+        marker_18f89c77213d21e8d6b3b8639779ca31.bindPopup(popup_f91115ecbc4790909befb224a888d078)
+        ;
+
+        
+    
+    
+                marker_18f89c77213d21e8d6b3b8639779ca31.setIcon(icon_8075e6f70480076867ec776e780f5bef);
+            
+    
+            var marker_e8b1f4d032154d5011f7a8f860bd629d = L.marker(
+                [41.675846099853516, -87.63496398925781],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_9726d0184f234bf6057b1dcbfe02fe5d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_40a69324b4b4f9dd6cf84f088f8e7127 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2c012b18223e4298aabb16a5a44eb0e = $(`<div id="html_e2c012b18223e4298aabb16a5a44eb0e" style="width: 100.0%; height: 100.0%;">Community Area: 53 Top Crime: BATTERY Count: 654</div>`)[0];
+                popup_40a69324b4b4f9dd6cf84f088f8e7127.setContent(html_e2c012b18223e4298aabb16a5a44eb0e);
+            
+        
+
+        marker_e8b1f4d032154d5011f7a8f860bd629d.bindPopup(popup_40a69324b4b4f9dd6cf84f088f8e7127)
+        ;
+
+        
+    
+    
+                marker_e8b1f4d032154d5011f7a8f860bd629d.setIcon(icon_9726d0184f234bf6057b1dcbfe02fe5d);
+            
+    
+            var marker_c9a0fb690a011cb664d0f96ad4635664 = L.marker(
+                [41.655948638916016, -87.60560607910156],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_b36f376c1da6e17e27355af439158daa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_06147d210fa6d4547b0e4f49474304f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_598937d396cd288bc9ccfacaedb90482 = $(`<div id="html_598937d396cd288bc9ccfacaedb90482" style="width: 100.0%; height: 100.0%;">Community Area: 54 Top Crime: BATTERY Count: 311</div>`)[0];
+                popup_06147d210fa6d4547b0e4f49474304f4.setContent(html_598937d396cd288bc9ccfacaedb90482);
+            
+        
+
+        marker_c9a0fb690a011cb664d0f96ad4635664.bindPopup(popup_06147d210fa6d4547b0e4f49474304f4)
+        ;
+
+        
+    
+    
+                marker_c9a0fb690a011cb664d0f96ad4635664.setIcon(icon_b36f376c1da6e17e27355af439158daa);
+            
+    
+            var marker_23c0abc44ae0895749d53ebab38699a5 = L.marker(
+                [41.659114837646484, -87.54546356201172],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_60295ef7b7731b11e1abe15051c2cb1d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_958dc39e56da146c4c480e8890ac5466 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32b4f3041cf8c7dcc485411560b63f8d = $(`<div id="html_32b4f3041cf8c7dcc485411560b63f8d" style="width: 100.0%; height: 100.0%;">Community Area: 55 Top Crime: THEFT Count: 186</div>`)[0];
+                popup_958dc39e56da146c4c480e8890ac5466.setContent(html_32b4f3041cf8c7dcc485411560b63f8d);
+            
+        
+
+        marker_23c0abc44ae0895749d53ebab38699a5.bindPopup(popup_958dc39e56da146c4c480e8890ac5466)
+        ;
+
+        
+    
+    
+                marker_23c0abc44ae0895749d53ebab38699a5.setIcon(icon_60295ef7b7731b11e1abe15051c2cb1d);
+            
+    
+            var marker_ab956f5652300d3b89b6790ab670215a = L.marker(
+                [41.79670715332031, -87.75651550292969],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_863a2f138c045836767bae28a5290ffb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a24f09257456f7bb74d6a4e8380be1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a71f7a1bb48038d0fdd45247a0fe0a2d = $(`<div id="html_a71f7a1bb48038d0fdd45247a0fe0a2d" style="width: 100.0%; height: 100.0%;">Community Area: 56 Top Crime: THEFT Count: 371</div>`)[0];
+                popup_6a24f09257456f7bb74d6a4e8380be1d.setContent(html_a71f7a1bb48038d0fdd45247a0fe0a2d);
+            
+        
+
+        marker_ab956f5652300d3b89b6790ab670215a.bindPopup(popup_6a24f09257456f7bb74d6a4e8380be1d)
+        ;
+
+        
+    
+    
+                marker_ab956f5652300d3b89b6790ab670215a.setIcon(icon_863a2f138c045836767bae28a5290ffb);
+            
+    
+            var marker_2d917a39fd40d21a7fee9242cf11864b = L.marker(
+                [41.808082580566406, -87.72590637207031],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_1cbd8462f6bfc224449d7fb512646e9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_225fe7979274df3b74aae27f2925f514 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40b541901a28569e9f228cc7a9bd614a = $(`<div id="html_40b541901a28569e9f228cc7a9bd614a" style="width: 100.0%; height: 100.0%;">Community Area: 57 Top Crime: THEFT Count: 411</div>`)[0];
+                popup_225fe7979274df3b74aae27f2925f514.setContent(html_40b541901a28569e9f228cc7a9bd614a);
+            
+        
+
+        marker_2d917a39fd40d21a7fee9242cf11864b.bindPopup(popup_225fe7979274df3b74aae27f2925f514)
+        ;
+
+        
+    
+    
+                marker_2d917a39fd40d21a7fee9242cf11864b.setIcon(icon_1cbd8462f6bfc224449d7fb512646e9a);
+            
+    
+            var marker_acc7754ffdff15b432c2ac4025158a28 = L.marker(
+                [41.81608581542969, -87.69647216796875],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_b4950363f4933e3de824bcc8dba5dceb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d904f076b323081a34cc4b0c3fb8529 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2a336b61d3b0b01395f269ba648a2f0 = $(`<div id="html_a2a336b61d3b0b01395f269ba648a2f0" style="width: 100.0%; height: 100.0%;">Community Area: 58 Top Crime: BATTERY Count: 476</div>`)[0];
+                popup_0d904f076b323081a34cc4b0c3fb8529.setContent(html_a2a336b61d3b0b01395f269ba648a2f0);
+            
+        
+
+        marker_acc7754ffdff15b432c2ac4025158a28.bindPopup(popup_0d904f076b323081a34cc4b0c3fb8529)
+        ;
+
+        
+    
+    
+                marker_acc7754ffdff15b432c2ac4025158a28.setIcon(icon_b4950363f4933e3de824bcc8dba5dceb);
+            
+    
+            var marker_0b8b9c887b90cc81c40a4176c05d88bc = L.marker(
+                [41.83095932006836, -87.67353820800781],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_39437865a28de62027f7516a647b6a9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76bed1060fc4f2e72ea0e14ff7bcfaec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d042b7c2bf1ca3ffa5a8662168f0eb36 = $(`<div id="html_d042b7c2bf1ca3ffa5a8662168f0eb36" style="width: 100.0%; height: 100.0%;">Community Area: 59 Top Crime: THEFT Count: 346</div>`)[0];
+                popup_76bed1060fc4f2e72ea0e14ff7bcfaec.setContent(html_d042b7c2bf1ca3ffa5a8662168f0eb36);
+            
+        
+
+        marker_0b8b9c887b90cc81c40a4176c05d88bc.bindPopup(popup_76bed1060fc4f2e72ea0e14ff7bcfaec)
+        ;
+
+        
+    
+    
+                marker_0b8b9c887b90cc81c40a4176c05d88bc.setIcon(icon_39437865a28de62027f7516a647b6a9d);
+            
+    
+            var marker_abe71ea75eb14e2faf0a59f8edd50b02 = L.marker(
+                [41.836421966552734, -87.64745330810547],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_9ddd50a51de899a62924a428dcd97ff7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_013c4111291153d0967c5fc1d9edba8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45b91fcddcfcc64f8c0639950934960d = $(`<div id="html_45b91fcddcfcc64f8c0639950934960d" style="width: 100.0%; height: 100.0%;">Community Area: 60 Top Crime: THEFT Count: 364</div>`)[0];
+                popup_013c4111291153d0967c5fc1d9edba8f.setContent(html_45b91fcddcfcc64f8c0639950934960d);
+            
+        
+
+        marker_abe71ea75eb14e2faf0a59f8edd50b02.bindPopup(popup_013c4111291153d0967c5fc1d9edba8f)
+        ;
+
+        
+    
+    
+                marker_abe71ea75eb14e2faf0a59f8edd50b02.setIcon(icon_9ddd50a51de899a62924a428dcd97ff7);
+            
+    
+            var marker_9c261664f8b276f3ad41fb87e0a0bc75 = L.marker(
+                [41.80561065673828, -87.66204833984375],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_1e4ce7e6d3c1d94b4e0528248e213b53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f5c90d2541fbbab3f42f23d4dda9eb06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d65ce2597a48a2554a2159d6eece66e = $(`<div id="html_2d65ce2597a48a2554a2159d6eece66e" style="width: 100.0%; height: 100.0%;">Community Area: 61 Top Crime: BATTERY Count: 852</div>`)[0];
+                popup_f5c90d2541fbbab3f42f23d4dda9eb06.setContent(html_2d65ce2597a48a2554a2159d6eece66e);
+            
+        
+
+        marker_9c261664f8b276f3ad41fb87e0a0bc75.bindPopup(popup_f5c90d2541fbbab3f42f23d4dda9eb06)
+        ;
+
+        
+    
+    
+                marker_9c261664f8b276f3ad41fb87e0a0bc75.setIcon(icon_1e4ce7e6d3c1d94b4e0528248e213b53);
+            
+    
+            var marker_7a6358035978937ba5cc00bce7aa3440 = L.marker(
+                [41.79278564453125, -87.72493743896484],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_c3556dedee7fb873df0f1b3729ea30cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b02c791f501c2bbd480f3938814e3635 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_406ca4626c7f36cb0a83401e1b840c39 = $(`<div id="html_406ca4626c7f36cb0a83401e1b840c39" style="width: 100.0%; height: 100.0%;">Community Area: 62 Top Crime: BATTERY Count: 182</div>`)[0];
+                popup_b02c791f501c2bbd480f3938814e3635.setContent(html_406ca4626c7f36cb0a83401e1b840c39);
+            
+        
+
+        marker_7a6358035978937ba5cc00bce7aa3440.bindPopup(popup_b02c791f501c2bbd480f3938814e3635)
+        ;
+
+        
+    
+    
+                marker_7a6358035978937ba5cc00bce7aa3440.setIcon(icon_c3556dedee7fb873df0f1b3729ea30cf);
+            
+    
+            var marker_80a223fa62f4ff08b776ebe97510c31d = L.marker(
+                [41.794918060302734, -87.69710540771484],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_6d900c56cb8c237b0b7365e23d2147e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2be2c47fea80a95ee8431a172d66ba84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d6d4c023b1241cf3c885b0cd2118965 = $(`<div id="html_5d6d4c023b1241cf3c885b0cd2118965" style="width: 100.0%; height: 100.0%;">Community Area: 63 Top Crime: BATTERY Count: 472</div>`)[0];
+                popup_2be2c47fea80a95ee8431a172d66ba84.setContent(html_5d6d4c023b1241cf3c885b0cd2118965);
+            
+        
+
+        marker_80a223fa62f4ff08b776ebe97510c31d.bindPopup(popup_2be2c47fea80a95ee8431a172d66ba84)
+        ;
+
+        
+    
+    
+                marker_80a223fa62f4ff08b776ebe97510c31d.setIcon(icon_6d900c56cb8c237b0b7365e23d2147e6);
+            
+    
+            var marker_5733f69909ef012d784dbf095a17e0f8 = L.marker(
+                [41.77814483642578, -87.76798248291016],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_42395c18945e1f6535127da646fc7e51 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8fd133a9ae8071f0c6be9ba94b70c47d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cf32c4d9f5b8dce0c323336b85b7df2 = $(`<div id="html_8cf32c4d9f5b8dce0c323336b85b7df2" style="width: 100.0%; height: 100.0%;">Community Area: 64 Top Crime: BATTERY Count: 201</div>`)[0];
+                popup_8fd133a9ae8071f0c6be9ba94b70c47d.setContent(html_8cf32c4d9f5b8dce0c323336b85b7df2);
+            
+        
+
+        marker_5733f69909ef012d784dbf095a17e0f8.bindPopup(popup_8fd133a9ae8071f0c6be9ba94b70c47d)
+        ;
+
+        
+    
+    
+                marker_5733f69909ef012d784dbf095a17e0f8.setIcon(icon_42395c18945e1f6535127da646fc7e51);
+            
+    
+            var marker_3da8d1f25da9bc6042b9890d4c7cfd94 = L.marker(
+                [41.770530700683594, -87.72802734375],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_be04baef16746cb826a68c331f3de844 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb32c1465ae533d6909ed00b9c78b291 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cea9aed24f950f8ad7f5cb116a1d855 = $(`<div id="html_4cea9aed24f950f8ad7f5cb116a1d855" style="width: 100.0%; height: 100.0%;">Community Area: 65 Top Crime: THEFT Count: 513</div>`)[0];
+                popup_fb32c1465ae533d6909ed00b9c78b291.setContent(html_4cea9aed24f950f8ad7f5cb116a1d855);
+            
+        
+
+        marker_3da8d1f25da9bc6042b9890d4c7cfd94.bindPopup(popup_fb32c1465ae533d6909ed00b9c78b291)
+        ;
+
+        
+    
+    
+                marker_3da8d1f25da9bc6042b9890d4c7cfd94.setIcon(icon_be04baef16746cb826a68c331f3de844);
+            
+    
+            var marker_ff3cecae5b97226973be42e173210034 = L.marker(
+                [41.77477264404297, -87.69369506835938],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_80d575d72d3bf64712cc7072167bdbb6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3a681470603c3b073140087c4aa9bc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d630a30d70a809ec67ffb14195bdb965 = $(`<div id="html_d630a30d70a809ec67ffb14195bdb965" style="width: 100.0%; height: 100.0%;">Community Area: 66 Top Crime: BATTERY Count: 1077</div>`)[0];
+                popup_e3a681470603c3b073140087c4aa9bc0.setContent(html_d630a30d70a809ec67ffb14195bdb965);
+            
+        
+
+        marker_ff3cecae5b97226973be42e173210034.bindPopup(popup_e3a681470603c3b073140087c4aa9bc0)
+        ;
+
+        
+    
+    
+                marker_ff3cecae5b97226973be42e173210034.setIcon(icon_80d575d72d3bf64712cc7072167bdbb6);
+            
+    
+            var marker_0595524a0ae905fe5e7236877496623c = L.marker(
+                [41.776309967041016, -87.66483306884766],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_4c182c9119d20b3bc955c01d0b1a8ed6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95092faaa5c3f2091863616de224dc02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_baabb8f52b0b6fd7f398a403ba49e004 = $(`<div id="html_baabb8f52b0b6fd7f398a403ba49e004" style="width: 100.0%; height: 100.0%;">Community Area: 67 Top Crime: BATTERY Count: 983</div>`)[0];
+                popup_95092faaa5c3f2091863616de224dc02.setContent(html_baabb8f52b0b6fd7f398a403ba49e004);
+            
+        
+
+        marker_0595524a0ae905fe5e7236877496623c.bindPopup(popup_95092faaa5c3f2091863616de224dc02)
+        ;
+
+        
+    
+    
+                marker_0595524a0ae905fe5e7236877496623c.setIcon(icon_4c182c9119d20b3bc955c01d0b1a8ed6);
+            
+    
+            var marker_d939ec37706412f7e55268aef82ae219 = L.marker(
+                [41.77607345581055, -87.64346313476562],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_1a55f24e8d45694474f2252a7de76ab3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd045f2378106fad7e7ffa0532a0993b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c96c06ab6466ea5b21531d9188b4017 = $(`<div id="html_1c96c06ab6466ea5b21531d9188b4017" style="width: 100.0%; height: 100.0%;">Community Area: 68 Top Crime: BATTERY Count: 1219</div>`)[0];
+                popup_bd045f2378106fad7e7ffa0532a0993b.setContent(html_1c96c06ab6466ea5b21531d9188b4017);
+            
+        
+
+        marker_d939ec37706412f7e55268aef82ae219.bindPopup(popup_bd045f2378106fad7e7ffa0532a0993b)
+        ;
+
+        
+    
+    
+                marker_d939ec37706412f7e55268aef82ae219.setIcon(icon_1a55f24e8d45694474f2252a7de76ab3);
+            
+    
+            var marker_4dff68b2d4c9ff748441e220e1dd1341 = L.marker(
+                [41.76285171508789, -87.6182632446289],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_6be9992919e8e709b2a852462b855e35 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4644a86472dd94da00f78d70f558975 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a84077ac892b6d212ecf858696bf058f = $(`<div id="html_a84077ac892b6d212ecf858696bf058f" style="width: 100.0%; height: 100.0%;">Community Area: 69 Top Crime: BATTERY Count: 1365</div>`)[0];
+                popup_a4644a86472dd94da00f78d70f558975.setContent(html_a84077ac892b6d212ecf858696bf058f);
+            
+        
+
+        marker_4dff68b2d4c9ff748441e220e1dd1341.bindPopup(popup_a4644a86472dd94da00f78d70f558975)
+        ;
+
+        
+    
+    
+                marker_4dff68b2d4c9ff748441e220e1dd1341.setIcon(icon_6be9992919e8e709b2a852462b855e35);
+            
+    
+            var marker_d8502f25e39e8eb6c664d26c18b62afa = L.marker(
+                [41.745811462402344, -87.70933532714844],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_fd81e9761a9451275dea831022db00a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_018e165b9d441528826faf6fad896705 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_622f62d45f0b34c9975a59c6d944e1a4 = $(`<div id="html_622f62d45f0b34c9975a59c6d944e1a4" style="width: 100.0%; height: 100.0%;">Community Area: 70 Top Crime: THEFT Count: 386</div>`)[0];
+                popup_018e165b9d441528826faf6fad896705.setContent(html_622f62d45f0b34c9975a59c6d944e1a4);
+            
+        
+
+        marker_d8502f25e39e8eb6c664d26c18b62afa.bindPopup(popup_018e165b9d441528826faf6fad896705)
+        ;
+
+        
+    
+    
+                marker_d8502f25e39e8eb6c664d26c18b62afa.setIcon(icon_fd81e9761a9451275dea831022db00a7);
+            
+    
+            var marker_2f0837aa75ff1cb7b168e2c7f3dbedc2 = L.marker(
+                [41.74666213989258, -87.65585327148438],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_f2727468b589e9cfe2b7519e28cd072c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fda62dee7dcc4bbf58b91d1e97579bea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff08c7045b4e77b6e80e2e4b476909a6 = $(`<div id="html_ff08c7045b4e77b6e80e2e4b476909a6" style="width: 100.0%; height: 100.0%;">Community Area: 71 Top Crime: BATTERY Count: 1317</div>`)[0];
+                popup_fda62dee7dcc4bbf58b91d1e97579bea.setContent(html_ff08c7045b4e77b6e80e2e4b476909a6);
+            
+        
+
+        marker_2f0837aa75ff1cb7b168e2c7f3dbedc2.bindPopup(popup_fda62dee7dcc4bbf58b91d1e97579bea)
+        ;
+
+        
+    
+    
+                marker_2f0837aa75ff1cb7b168e2c7f3dbedc2.setIcon(icon_f2727468b589e9cfe2b7519e28cd072c);
+            
+    
+            var marker_054f010c4af8be4cd2e38842fd96a3f1 = L.marker(
+                [41.7120246887207, -87.67317199707031],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_745cbdad0694c234ef5275bef56bd827 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6657efffd778832c885c5a38c5ddb80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd7c53978c695a8abadad8369a212628 = $(`<div id="html_bd7c53978c695a8abadad8369a212628" style="width: 100.0%; height: 100.0%;">Community Area: 72 Top Crime: THEFT Count: 220</div>`)[0];
+                popup_f6657efffd778832c885c5a38c5ddb80.setContent(html_bd7c53978c695a8abadad8369a212628);
+            
+        
+
+        marker_054f010c4af8be4cd2e38842fd96a3f1.bindPopup(popup_f6657efffd778832c885c5a38c5ddb80)
+        ;
+
+        
+    
+    
+                marker_054f010c4af8be4cd2e38842fd96a3f1.setIcon(icon_745cbdad0694c234ef5275bef56bd827);
+            
+    
+            var marker_ed24c3dcbc2a1bdda635aa1724094fc6 = L.marker(
+                [41.71956253051758, -87.65108489990234],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_114dea4044b9aa3a5e69e478c35c72e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb86f510f48a336f60acf854cd9953e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_957680a6ead4907a83579664f5797989 = $(`<div id="html_957680a6ead4907a83579664f5797989" style="width: 100.0%; height: 100.0%;">Community Area: 73 Top Crime: THEFT Count: 633</div>`)[0];
+                popup_cb86f510f48a336f60acf854cd9953e0.setContent(html_957680a6ead4907a83579664f5797989);
+            
+        
+
+        marker_ed24c3dcbc2a1bdda635aa1724094fc6.bindPopup(popup_cb86f510f48a336f60acf854cd9953e0)
+        ;
+
+        
+    
+    
+                marker_ed24c3dcbc2a1bdda635aa1724094fc6.setIcon(icon_114dea4044b9aa3a5e69e478c35c72e2);
+            
+    
+            var marker_91c370435cf8d8ccf4ec3e68eb95af8f = L.marker(
+                [41.69400405883789, -87.7092056274414],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_db88b80ca2cebfc76b85b8e4f32be9a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6191142d7155a3c55ad5da5235a64bdf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebd86aca44ce2dc1b754587d42b542bb = $(`<div id="html_ebd86aca44ce2dc1b754587d42b542bb" style="width: 100.0%; height: 100.0%;">Community Area: 74 Top Crime: THEFT Count: 122</div>`)[0];
+                popup_6191142d7155a3c55ad5da5235a64bdf.setContent(html_ebd86aca44ce2dc1b754587d42b542bb);
+            
+        
+
+        marker_91c370435cf8d8ccf4ec3e68eb95af8f.bindPopup(popup_6191142d7155a3c55ad5da5235a64bdf)
+        ;
+
+        
+    
+    
+                marker_91c370435cf8d8ccf4ec3e68eb95af8f.setIcon(icon_db88b80ca2cebfc76b85b8e4f32be9a6);
+            
+    
+            var marker_0f0ffbea40bc683e50ccca973daff695 = L.marker(
+                [41.689144134521484, -87.66432189941406],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_9892cb690194aae7616a8bfd8936fcec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_80f85a15c27de9c1baf5c59a65f4a84d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab9518dbe8c79672a0db5fbd0a4cdcea = $(`<div id="html_ab9518dbe8c79672a0db5fbd0a4cdcea" style="width: 100.0%; height: 100.0%;">Community Area: 75 Top Crime: THEFT Count: 403</div>`)[0];
+                popup_80f85a15c27de9c1baf5c59a65f4a84d.setContent(html_ab9518dbe8c79672a0db5fbd0a4cdcea);
+            
+        
+
+        marker_0f0ffbea40bc683e50ccca973daff695.bindPopup(popup_80f85a15c27de9c1baf5c59a65f4a84d)
+        ;
+
+        
+    
+    
+                marker_0f0ffbea40bc683e50ccca973daff695.setIcon(icon_9892cb690194aae7616a8bfd8936fcec);
+            
+    
+            var marker_9040bb40506173d6f79ef8471ba756ab = L.marker(
+                [41.977638244628906, -87.87824249267578],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_06c12f71c9ad4f12f21dbb88d19ab10e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa4935bc519179e8fa66c143fc032cd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e3a6ba76f8974e13197a83a625a1f4d = $(`<div id="html_2e3a6ba76f8974e13197a83a625a1f4d" style="width: 100.0%; height: 100.0%;">Community Area: 76 Top Crime: THEFT Count: 522</div>`)[0];
+                popup_fa4935bc519179e8fa66c143fc032cd4.setContent(html_2e3a6ba76f8974e13197a83a625a1f4d);
+            
+        
+
+        marker_9040bb40506173d6f79ef8471ba756ab.bindPopup(popup_fa4935bc519179e8fa66c143fc032cd4)
+        ;
+
+        
+    
+    
+                marker_9040bb40506173d6f79ef8471ba756ab.setIcon(icon_06c12f71c9ad4f12f21dbb88d19ab10e);
+            
+    
+            var marker_5ab8ca74d2eb4d5b4becbdb784f67ad7 = L.marker(
+                [41.98653030395508, -87.66117095947266],
+                {
+}
+            ).addTo(map_83460c9567848c195d6c5fb5fa8cb6a0);
+        
+    
+            var icon_b46a90b61902d8b6d4e335d12a332987 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed25a3d3f66d7763c3f451459710c09b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6adaea37cf58d49e6392e893e664f0ec = $(`<div id="html_6adaea37cf58d49e6392e893e664f0ec" style="width: 100.0%; height: 100.0%;">Community Area: 77 Top Crime: THEFT Count: 1143</div>`)[0];
+                popup_ed25a3d3f66d7763c3f451459710c09b.setContent(html_6adaea37cf58d49e6392e893e664f0ec);
+            
+        
+
+        marker_5ab8ca74d2eb4d5b4becbdb784f67ad7.bindPopup(popup_ed25a3d3f66d7763c3f451459710c09b)
+        ;
+
+        
+    
+    
+                marker_5ab8ca74d2eb4d5b4becbdb784f67ad7.setIcon(icon_b46a90b61902d8b6d4e335d12a332987);
+            
+</script>
+</html>
