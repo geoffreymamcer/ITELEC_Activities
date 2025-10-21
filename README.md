@@ -7,6 +7,7 @@ Here are some of the project folders in this repository:
 - [UK Road Accident Data Analytics](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/UK%20ROAD%20ACCIDENT%20DATA%20ANALYTICS)
 - [Chicago Crimes Analysis](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/Chicago)
 - [Philippines Dengue Cases Analysis](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/Dengue%20Cases%20Activity)
+- [Linear Regression](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/RegressionModelSalaryPrediction)
 
 
 
