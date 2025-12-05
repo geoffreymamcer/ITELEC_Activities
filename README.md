@@ -9,6 +9,8 @@ Here are some of the project folders in this repository:
 - [Chicago Crimes Analysis](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/Chicago)
 - [Philippines Dengue Cases Analysis](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/Dengue%20Cases%20Activity)
 - [Linear Regression](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/RegressionModelSalaryPrediction)
+- [House Price Prediction](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/Machine%20Learning)
+- [Titanic Survivability Prediction](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/Classfication%20Machine%20Learning%20(Logistic%20and%20Random%20Forest)%20Titanic%20Survivability)
 
 
 
