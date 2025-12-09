@@ -12,6 +12,7 @@ Here are some of the project folders in this repository:
 - [House Price Prediction](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/Machine%20Learning)
 - [Titanic Survivability Prediction](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/Classfication%20Machine%20Learning%20(Logistic%20and%20Random%20Forest)%20Titanic%20Survivability)
 - [Movie Review](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/Movie%20Review%20Power%20BI%20Data%20Analytics)
+- [Final Project](https://github.com/geoffreymamcer/ITELEC_Activities/tree/main/Family%20Income%20Predictive%20Analytics)
 
 
 
